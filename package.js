@@ -18,7 +18,7 @@ Package.on_use(function (api) {
 	api.imply('accounts-base', ['client', 'server']);
 
 	// Include materialize official package.
-	api.use('materialize:materialize',
+	api.use('materialize:materialize@0.97.5',
 			'client', {weak: false});
 
 	// Allows us to call Accounts.oauth.serviceNames, if there are any OAuth
